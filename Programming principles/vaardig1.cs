@@ -1,4 +1,3 @@
-```csharp
 
 class Program
     {
@@ -115,5 +114,3 @@ class Program
             }
         }
     }
-
-    ```
