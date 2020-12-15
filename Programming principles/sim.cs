@@ -1,4 +1,3 @@
-```csharp
 
 class Program
     {
@@ -100,5 +99,3 @@ class Program
                 Console.ResetColor();
             }
         }
-
-```
