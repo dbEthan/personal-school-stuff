@@ -37,3 +37,5 @@ elif [ $input = "c" ]; then
                 rm $inputBestandsNaam
         fi
 fi
+
+
