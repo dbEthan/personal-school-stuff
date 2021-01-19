@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+    font-family: 'Lora' 20px;
+}
+
+.linkerkolom {
+    float: left;
+    border: solid black 2px;
+    padding: 10px;
+    width: 45%;
+}
+
+.rechterkolom {
+    float: right;
+    border: solid black 2px;
+    padding: 10px;
+    width: 45%;
+    margin-bottom: 200px;
+}
+
+.footer {
+    clear: both;
+    border: solid black 2px;
+    padding: 10px;
+}
