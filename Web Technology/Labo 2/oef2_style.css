@@ -1,0 +1,22 @@
+.kader {
+    width: 40%;
+    margin: 0 auto;
+}
+
+p {
+    padding: 5px;
+    line-height: 1.5;
+    margin: 5px;
+}
+
+img {
+    float: right;
+}
+
+#left {
+    float: left;
+}
+
+#conclusion {
+    clear: left;
+}

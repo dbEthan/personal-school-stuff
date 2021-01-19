@@ -1,0 +1,49 @@
+body {
+    background-color: #ebc1e4;
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+}
+
+.kader {
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1.8;
+}
+
+header {
+    background-color: #e779d5;
+}
+
+main {
+    background-color: #f6b9b6;
+    width: 620px;
+}
+
+nav {
+    background-color: #9e1a7a;
+    float: right;
+    width: 100px;
+    /*
+    De width is uitgerekend. de breeddte van .kader is specifiek gezet
+    zodat de breedte van main (+ padding) + nav (+ padding) = breedte van .kader.
+    */
+}
+
+nav a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #d32281;
+}
+
