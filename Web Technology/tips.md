@@ -15,3 +15,5 @@ aside {
     left: 55%;
 }
 ```
+
+Use <iframe> to embed content from othe websites.
