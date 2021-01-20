@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Mijn favoriete films</title>
+        <link href="oef1_style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <main>
+            <table>
+                <caption>Mijn favoriete films</caption>
+                <thead>
+                    <tr>
+                        <!--Voeg bij table headers scope= toe zodat de headers geassocieerd kunnen worden met de relevande table data-->
+                        <th scope="col">Ranking</th>        
+                        <th scope="col">Naam</th>
+                        <th scope="col">Jaartal</th>
+                        <th scope="col">IMDB Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="firstPlace">1</td>
+                        <td>The Rock</td>
+                        <td>1996</td>
+                        <td>7.4</td>
+                    </tr>
+                    <tr>
+                        <td id="secondPlace">2</td>
+                        <td>Star Wars: Episode III: Revenge of the Sith</td>
+                        <td>2005</td>
+                        <td>7.5</td>
+                    </tr>
+                    <tr>
+                        <td id="thirdPlace">3</td>
+                        <td>The Wolf of Wall Street</td>
+                        <td>2013</td>
+                        <td>8.2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <div class="formulier">
+                <h1>Geef feedback over mijn films!</h1>
+                <form action="www.example.com" method="GET"> <!--de attributen "action" en "method" zijn verplicht.-->
+                    <label for="email"></label>E-Mail:</label> <!--Je kunt ook zonder label werken, zelfde effect.-->
+                    <input type="email" name="email" size="30" required>
+                    <br>
+                    <label for="text">Selectie:</label>
+                    <input type="text" name="selectie" size="1" maxlength="1" required>
+                    <br>
+                    <textarea name="comments" cols="30" rows="10">Geef commentaar bij mijn film.</textarea>
+                    <br>
+                    <select name="sterren">
+                        <option value="oneStar">*</option>
+                        <option value="twoStars">**</option>
+                        <option value="threeStars">***</option>
+                        <option value="fourStars">****</option>
+                        <option value="fiveStars">*****</option>
+                    </select>
+                    <button type="submit">Versturen</button>
+                    <h2>Onder deze regel staat een geheim...</h2>
+                    <input type="hidden" value="Je hebt mijn geheim ontdekt!">
+                </form>
+            </div>
+        </main>
+        <aside>
+            <h1>The Rock trailer</h1>
+            <iframe title="trailer" width="560" height="315" src="https://www.youtube.com/embed/313n0wga2xo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>Fun quote</h1>
+            <audio controls>
+                <source src="unlimited-power_mB9IhRp.mp3" type="audio/mpeg">
+            </audio>
+        </aside>
+    </body>
+</html>

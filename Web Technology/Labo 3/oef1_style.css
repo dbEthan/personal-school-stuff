@@ -1,0 +1,46 @@
+main {
+    float: left;
+    position: fixed;
+    right: 55%;
+}
+
+aside {
+    float: right;
+    position: fixed;
+    left: 55%;
+}
+
+table {
+    border: solid black 1px;
+}
+
+caption {
+    border: solid black 1px;
+    color: red;
+}
+
+th {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#firstPlace {
+    color: gold;
+    text-align: center;
+}
+
+#secondPlace{
+    color: silver;
+    text-align: center;
+}
+
+#thirdPlace {
+    color: #cd7f32;
+    text-align: center;
+}
+
