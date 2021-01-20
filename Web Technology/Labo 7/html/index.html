@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ethan DB">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>OEF 7</title>
+</head>
+<body>
+    <header>
+        <h1>Inschrijvingsformulier</h1>
+    </header>
+    <main>
+        <div class="form">
+            <fieldset>
+                <legend>Vul je gegevens in:</legend>
+                <form action="#" method="GET">
+                    <label for="firstName">Voornaam:</label>
+                    <input type="text" name="firstName" required> <br>
+                    <label for="secondName">Achternaam</label>
+                    <input type="text" name="secondName" required> <br>
+                    <label for="bday">Geboortedatum</label>
+                    <input type="date" name="bday" required> <br>
+                    <label for="photo">Pasfoto:</label>
+                    <input type="file" name="photo" required> <br>
+                    <label for="keuzetraject">keuzetraject:</label>
+                    <select name="keuzetraject" id="keuzetraject">
+                        <option value="" selected disabled hidden>Kies een traject</option>
+                        <option value="ITbusiness">IT & Business</option>
+                        <option value="ITsoftware">IT & Software</option>
+                        <option value="ITcyber">IT & Cybersecurity</option>
+                        <option value="ITiot">IT & IoT</option>
+                    </select> <br>
+                    <label for="">Kies een onderwijstraject:</label> <br>
+                    <label for="onderwijs">Dagonderwijs</label>
+                    <input type="radio" name="onderwijs" required>
+                    <label for="onderwijs">Avondonderwijs</label>
+                    <input type="radio" name="onderwijs"> <br>
+                    <textarea name="opmerkingen" id="opmerkingen" cols="30" rows="10">Voeg opmerkingen toe...</textarea> <br>
+                    <input type="checkbox" name="OER" required>
+                    <label for="OER">Ik ga akkoord met de OER voorwaarden.</label> <br>
+                    <button type="submit">Verzenden...</button>
+                    <button type="reset">Reset</button>   
+                </form>
+            </fieldset>
+        </div>
+    </main>
+    <footer>
+        <a href="page2.html">GA NAAR DE TWEEDE PAGINA</a>
+    </footer>
+</body>
+</html>

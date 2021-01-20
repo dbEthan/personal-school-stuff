@@ -1,0 +1,29 @@
+body {
+    background-image: url(../afbeeldingen/Schermopname\ \(39\).png);
+    color: white;
+}
+
+
+label {
+    padding: 5px;
+}
+
+label, textarea, select, input {
+    margin-top: 10px;
+}
+
+select {
+    margin: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}

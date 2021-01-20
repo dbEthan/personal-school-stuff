@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto Mono';
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    text-decoration: underline;
+}
+
+.kader {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.plotMovie img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.plotMovie {
+    text-align: justify;
+    margin-bottom: 8%;
+}
+
+.plotTV {
+    text-align: justify;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: silver;
+}

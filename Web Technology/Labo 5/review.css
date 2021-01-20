@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto Mono';
+}
+
+body {
+    color: white;
+    background-color: #050505;
+}
+
+.kader {
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: silver;
+}
+
+img {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(afbeeldingen/movie-296751_1280.png) 60 round;
+}
+
+.review {
+    padding: 15px;
+    margin:  0 auto;
+    width: 45%;
+    border: 2px solid white;
+    border-radius: 30px;
+}
