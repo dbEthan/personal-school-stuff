@@ -72,3 +72,7 @@ footer {
 .email {
     padding: 10px;
 }
+
+a:hover {
+    color: gold;
+}
