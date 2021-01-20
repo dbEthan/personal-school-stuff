@@ -34,8 +34,8 @@ figcaption {
     font-size: 12px;
 }
 
-#intro span {
-    font-size: 50px;
+#intro:first-letter { /*Gebruik hier de pseudo-class :first-letter*/
+    font-size: 300%;
 }
 
 #intro {
