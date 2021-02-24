@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OEFENING 1</title>
+</head>
+<body>
+    <h1>Oefening 1</h1>
+    <script>
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min) ) + min;
+            }
+
+        let input = prompt("Wil je een specifiek getal tonen?");
+        if (input == 'n' || input == "nee") {
+            let output = getRandomInt(50, 101);
+            document.write(output);
+        }
+        
+    </script>
+</body>
+</html>
